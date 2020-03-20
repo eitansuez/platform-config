@@ -58,7 +58,7 @@ properties-configuration:
   director_configuration:
     ntp_servers_string: 169.254.169.254
   iaas_configuration:
-    auth_json: ((ops-manager-service-account-key))
+    auth_json: ((opsman-service-account-key))
     default_deployment_tag: sandbox-vms
     project: fe-esuez
   security_configuration:
