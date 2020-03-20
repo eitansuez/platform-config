@@ -1,0 +1,16 @@
+opsman-configuration:
+  gcp:
+    boot_disk_size: 100
+    custom_cpu: 4
+    custom_memory: 16
+    gcp_service_account: ((opsman-service-account-key))
+    project: fe-esuez
+    public_ip: 35.193.90.186
+    region: us-central1
+    ssh_public_key: |
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDEbD4Go5IKPmIOnfbWGMt3o3/m0IworiF4bet24o7mwvSDgEqFNzAl5YeSF2Bh7SR4r2fKWgtqs8LHgLChOCMC+YMIvucE4ZvVNJ+d0ZSJxl35rtN6jBtqO+NCSCXEsO0sE3OpZVMo9UttggW+keGMAhVOLRkjfJ/Fyx3CtIuq1KXyUmIHbEsWqdLEPA9Jj7MIMdNo12eTirvtm95U1g6MCC8aiYf4pBDY+OGBARNlExtbqPOf40r+6yg4BPM1o8fvAwgzzpwfe1OIiugnLPYpwzlAU7If/0mcwscL4R9ZIPa2yB7mEBhgqF4+FTsilAtvCTFft4ALamHpYufx9NYEB9I3bERyUXqT0ydAia5pJJgx56JNo1UYHEV3CW/hUXNiZFxDrFUoulO3uHCvKKKAsJ4J6bg+d5nmrBnATLNY7a8/XmplkJEQ03NH9USxLKLyNXBANMeKMz2Kps/1/h4W2MwZb5y8+gZ0IgIb6aYmauwx9/Pf9Ps8zjnEsZs8dwST80nbN1nkWbouGKXrktLR4YIBuMOc1mFACYlHFUEAS9KJKI/fIaeEUjFl9GKX4A+2lP3qys+l5c/IlXUx6RctzUYOvjfvFbrfBReeNciJrvKW58CrYEwykCv3nTeWHuEcwwSj32iDJ6qq1mcYJ0rNmfrDkL9uXMs5nvvlWPmbHQ==
+    tags: sandbox-ops-manager
+    vm_name: sandbox-ops-manager-vm
+    vpc_subnet: sandbox-management-subnet
+    zone: us-central1-a
+
