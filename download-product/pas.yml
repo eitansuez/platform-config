@@ -5,3 +5,5 @@ pivnet-product-slug: elastic-runtime
 product-version-regex: ^2\.8\..*$
 blobstore-bucket: ((bucket))
 stemcell-iaas: google
+gcs-project-id: fe-esuez
+gcs-service-account-json: ((json_key))

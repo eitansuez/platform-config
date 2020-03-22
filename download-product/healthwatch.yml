@@ -5,3 +5,5 @@ pivnet-product-slug: p-healthwatch
 product-version-regex: ^1\.8\..*$
 blobstore-bucket: ((bucket))
 stemcell-iaas: google
+gcs-project-id: fe-esuez
+gcs-service-account-json: ((json_key))
