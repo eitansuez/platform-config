@@ -7,3 +7,4 @@ blobstore-bucket: ((bucket))
 stemcell-iaas: google
 gcs-project-id: fe-esuez
 gcs-service-account-json: ((json_key))
+blobstore-stemcell-path: pas-stemcell
