@@ -388,7 +388,7 @@ resource-config:
     elb_names: []
     instance_type:
       id: automatic
-    instances: automatic
+    instances: 3
     internet_connected: true
     swap_as_percent_of_memory_size: automatic
   control:
